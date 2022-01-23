@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/hackwish/docker-hassio/compare/v1.0.1...v1.0.2) (2022-01-23)
+
+
+### Bug Fixes
+
+* **git:** update ignore ([a84f10d](https://github.com/hackwish/docker-hassio/commit/a84f10d8238c2c282f2ead6d6f38001e99c34a8d))
+
 ## [1.0.1](https://github.com/hackwish/docker-hassio/compare/v1.0.0...v1.0.1) (2022-01-23)
 
 
