@@ -11,6 +11,9 @@ services:
     volumes:
       - ./config:/config
       - /etc/localtime:/etc/localtime:ro
+    # Not define ports because used to host network
+    # ports:
+    #   - "8123:8123"
     restart: unless-stopped
     privileged: true
     network_mode: host
