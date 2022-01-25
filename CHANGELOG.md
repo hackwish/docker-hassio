@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/hackwish/docker-hassio/compare/v1.0.3...v1.0.4) (2022-01-25)
+
+
+### Bug Fixes
+
+* **docker-compose:** add bt device ([084a724](https://github.com/hackwish/docker-hassio/commit/084a724a08438c0d1c9c7c1e5810b10e554d0347))
+
 ## [1.0.3](https://github.com/hackwish/docker-hassio/compare/v1.0.2...v1.0.3) (2022-01-25)
 
 
