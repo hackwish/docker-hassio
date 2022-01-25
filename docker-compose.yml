@@ -11,6 +11,8 @@ services:
     volumes:
       - ./config:/config
       - /etc/localtime:/etc/localtime:ro
+    devices:
+      - /dev/ttyBT0:/dev/ttyBT0
     # Not define ports because used to host network
     # ports:
     #   - "8123:8123"
