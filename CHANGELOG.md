@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/hackwish/docker-hassio/compare/v1.0.4...v1.0.5) (2024-02-22)
+
+
+### Bug Fixes
+
+* **docker-compose:** update compose ([266b3f8](https://github.com/hackwish/docker-hassio/commit/266b3f8a2b00d00138a23d5f687be09c0e8ad67b))
+
 ## [1.0.4](https://github.com/hackwish/docker-hassio/compare/v1.0.3...v1.0.4) (2022-01-25)
 
 
