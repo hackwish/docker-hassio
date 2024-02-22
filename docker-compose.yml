@@ -4,19 +4,17 @@ services:
     container_name: homeassistant
     image: "ghcr.io/home-assistant/home-assistant:stable"
     environment:
+      PUID: 1000
+      PGID: 1000
       SET_CONTAINER_TIMEZONE: 'true'
       CONTAINER_TIMEZONE: America/Santiago
       TZ: America/Santiago
       # DISABLE_JEMALLOC: true
     volumes:
-      - ./config:/config
       - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
     devices:
-      - /dev/ttyBT0:/dev/ttyBT0
-      - /dev/ttyBT1:/dev/ttyBT1
-    # Not define ports because used to host network
-    # ports:
-    #   - "8123:8123"
+      - /dev:/dev
     restart: unless-stopped
     privileged: true
     network_mode: host
