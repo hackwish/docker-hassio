@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/hackwish/docker-hassio/compare/v1.0.5...v1.0.6) (2026-11-08)
+
+
+### Bug Fixes
+
+* **deployment:** update service ([9cdad4f](https://github.com/hackwish/docker-hassio/commit/9cdad4f392f941a877b1d7bb2c417d890d7cbb2f))
+
 ## [1.0.5](https://github.com/hackwish/docker-hassio/compare/v1.0.4...v1.0.5) (2024-02-22)
 
 
